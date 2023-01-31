@@ -16,5 +16,6 @@ public class Temperatura {
 		double Celcius = entrada2.nextDouble();
 		double F = Celcius * 1.8 + 32;
 		System.out.println("\nA temperatura em °C convertida para °F é de: " + F);
+		System.out.println("");
 	}
 }
