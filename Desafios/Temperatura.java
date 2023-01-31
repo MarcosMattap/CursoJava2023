@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Temperatura {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		System.out.println("Infoeme a temperatura em faherenheit\n");
+		System.out.println("Informe a temperatura em faherenheit\n");
 		Scanner entrada = new Scanner(System.in);
 		double faherenheit = entrada.nextDouble();
 		double C = (faherenheit - 32) * (5.0 / 9);
